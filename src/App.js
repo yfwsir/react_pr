@@ -7,6 +7,7 @@ import Taste from './pages/taste/index'
 import Order from './pages/order/index'
 import Mine from './pages/mine/index'
 import Footertab from './common/footerTab/index'
+import Search from './common/search/search'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path='/taste' component={Taste}/>
           <Route path='/order' component={Order}/>
           <Route path='/mine' component={Mine}/>
+          <Route path='/search' component={Search}/>
           <Route component={Footertab}/>
         </div>
       </BrowserRouter>

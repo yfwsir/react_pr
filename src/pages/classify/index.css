@@ -1,0 +1,57 @@
+#classify .classify_search {
+  height: 30px;
+  padding: 6px; }
+  #classify .classify_search .classify_search_wrap {
+    height: 30px;
+    background: #efeff0; }
+    #classify .classify_search .classify_search_wrap .icon-sousuo {
+      margin: 0 7px;
+      line-height: 30px;
+      position: relative;
+      top: 2px; }
+    #classify .classify_search .classify_search_wrap .classify_search_inp {
+      color: gray;
+      font-size: 12px; }
+#classify .classify_left .classify_left_ul {
+  width: 75px;
+  overflow: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0px;
+  text-align: center;
+  float: left; }
+  #classify .classify_left .classify_left_ul .classify_left_nav {
+    height: 25px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+    border-left: solid 3px transparent; }
+  #classify .classify_left .classify_left_ul .classify_left_nav.active {
+    color: #845f3f;
+    font-weight: 700;
+    border-left: solid 3px #845f3f; }
+#classify .classify_right {
+  position: absolute;
+  top: 50px;
+  left: 75px;
+  bottom: 0px;
+  overflow: auto;
+  width: 300px;
+  text-align: center; }
+  #classify .classify_right .classify_right_nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    #classify .classify_right .classify_right_nav .classify_right_nav_item {
+      width: 33.33%;
+      margin-bottom: 15px; }
+      #classify .classify_right .classify_right_nav .classify_right_nav_item p {
+        font-size: 12px;
+        color: #666666; }

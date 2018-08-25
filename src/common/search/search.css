@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.search_detail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: white;
+  z-index: 5; }
+  .search_detail .search_top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px; }
+    .search_detail .search_top .search_back {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      line-height: 30px; }
+    .search_detail .search_top .search_inp {
+      -webkit-box-flex: 5;
+      -webkit-flex: 5;
+          -ms-flex: 5;
+              flex: 5;
+      line-height: 30px;
+      background: #f1f9ea;
+      text-align: left; }
+      .search_detail .search_top .search_inp .search_inp_inp {
+        border: 0;
+        outline: none;
+        background: #f1f9ea; }
+      .search_detail .search_top .search_inp input::-webkit-input-placeholder {
+        /* placeholder棰滆壊  */
+        color: #ccc;
+        /* placeholder瀛椾綋澶у皬  */
+        font-size: 14px; }
+    .search_detail .search_top .search_text {
+      line-height: 30px;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      font-size: 14px;
+      color: #666666; }
+  .search_detail .hotSearch .hotSearch_text {
+    height: 35px;
+    width: 100%;
+    background: #f1f9ea;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999999;
+    line-height: 35px;
+    padding-left: 20px;
+    margin-bottom: 30px; }
+  .search_detail .hotSearch .hotSearch_word {
+    padding-left: 20px; }
+    .search_detail .hotSearch .hotSearch_word .hotSearch_span {
+      display: inline-block;
+      font-size: 12px;
+      color: #666666;
+      padding: 5px;
+      margin-right: 15px;
+      margin-top: 10px; }
