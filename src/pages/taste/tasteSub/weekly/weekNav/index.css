@@ -1,0 +1,33 @@
+.weekNavimg img{
+    width: 100%;
+    height: 96px;
+}
+.weekNavimg-box{
+    width: 100%;
+    overflow: auto;
+}
+.weekNavimg-ulbox{
+    margin-top: 10px;
+    width: 2000px;
+}
+.weekNavimg-ulbox .weekNavimg-lbox{
+    float: left;
+    padding-right: 6px;
+    font-size: 12px;
+}
+.weekNavimg-ulbox .weekNavimg-lbox:last-child{
+    padding-right: 0px;
+}
+.weekNavimg-ulbox .weekNavimg-lbox p{
+    width: 100px;
+    height: 16px;
+    margin-top:9px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.weekNavimg-ulbox .weekNavimg-lbox span{
+    color: #cb5050;
+    
+}

@@ -1,0 +1,21 @@
+.minpicNav{
+    overflow: auto;
+    width: 100%;
+}
+.ulBox{
+    width:1000px;
+}
+.imgBox{
+    float: left;
+    margin-left: 10px;
+}
+.imgBox img{
+    width: 70px;
+    height: 60px;
+}
+.imgBox p{
+    color: rgb(51, 51, 51);
+    font-size: 11px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

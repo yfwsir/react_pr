@@ -1,0 +1,11 @@
+.weeklyBox{
+    width: 100%;
+    height: 312px;
+    box-sizing: border-box;
+    padding: 0 15px 15px;
+}
+.weekly-title{
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.showbox-lbox{
+    padding: 0 15px 15px;
+    box-sizing: border-box;
+    text-align: center
+}
+.showbox-lbox img {
+        width: 100%;
+        height: 172px;
+}
+.showbox-lbox h2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.showbox-lbox p{
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    margin-top: 8px;
+}
+.showbox-lbox button{
+    background-color: rgb(132, 95, 63);
+    border: none;
+    border-radius: 2px;
+    height: 27px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    width: 66px;
+    color: #fff;
+
+}
